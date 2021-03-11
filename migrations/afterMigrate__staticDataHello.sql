@@ -1,3 +1,9 @@
+/* Considerations:
+Security for BULK insert from a pipeline may be a bit fiddly, depending on which style of 
+authentication you are using and where the data file is located in relation to the SQL Server
+See - https://docs.microsoft.com/en-us/sql/relational-databases/import-export/import-bulk-data-by-using-bulk-insert-or-openrowset-bulk-sql-server?view=sql-server-2017#security-considerations
+*/
+
 TRUNCATE TABLE dbo.Hello;
 GO
 

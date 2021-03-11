@@ -1,1 +1,1 @@
-bcp Flyway7Demo.dbo.There in C:\Git\FlywayStaticData\data\There.dat -c -t "," -S DERP -T
+bcp Flyway7Demo.dbo.There in C:\Git\FlywayStaticData\data\There.dat -c -t "," -S DERP -T -b 500000

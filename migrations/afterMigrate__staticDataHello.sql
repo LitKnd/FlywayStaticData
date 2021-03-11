@@ -8,7 +8,8 @@ WITH
     FIRSTROW=1,
     DATAFILETYPE = 'char',
     FIELDTERMINATOR = ',',
-    ROWTERMINATOR = '\n'
+    ROWTERMINATOR = '\n',
+    TABLOCK
   );
  
  SELECT count(*) as [rows in dbo.hello] FROM dbo.hello;

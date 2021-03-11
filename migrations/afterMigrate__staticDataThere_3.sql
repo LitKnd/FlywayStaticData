@@ -1,0 +1,1 @@
+SELECT count(*) as [rows in dbo.There] FROM dbo.There;

@@ -1,0 +1,3 @@
+TRUNCATE TABLE dbo.There;
+GO
+
